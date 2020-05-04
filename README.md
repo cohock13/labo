@@ -38,6 +38,19 @@ Pythonでプロットしたところ以下のようになった.
 
 やや見にくいが,τが小さくなるにつれ,位相が赤いa*sin(x)に近づいている様子がわかる.
 
+# 12-3
+
+/Sample4-3にあるdata.txtをgnuplotでプロットした結果,以下のようになった.
+
+t-x平面とt-y平面
+![txty](https://user-images.githubusercontent.com/55901554/81002933-04c47580-8e85-11ea-9b04-e8f3ff057b4d.png)
+<br><br>
+x-y平面
+![x-y](https://user-images.githubusercontent.com/55901554/81002955-0ee67400-8e85-11ea-918a-f89f2e3543f7.png)
+<br><br>
+
+
+
 
 
 
