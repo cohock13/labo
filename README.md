@@ -8,8 +8,9 @@ C
 gcc 12_1.c
 ```
 Pythonによる作画.
-ついでなのでPythonライブラリScipyの常微分方程式のソルバでも試してみた.
-![sol](https://user-images.githubusercontent.com/55901554/80989982-9f668980-8e70-11ea-944c-ec7b0b871f81.png)
+ついでにPythonライブラリScipyの常微分方程式のソルバでも試してみた.
+![sol](https://user-images.githubusercontent.com/55901554/81003943-9aacd000-8e86-11ea-98e3-e33d509fa340.png)
+
 
 ぱっと見た感じdt=0.2でもほとんど違いはないように見える.
 
@@ -27,10 +28,6 @@ Python
 ```bash
 python 12_2.py
 ```
-C
-```bash
-gcc 12_2.c
-```
 
 Pythonでプロットしたところ以下のようになった.
 
@@ -38,7 +35,32 @@ Pythonでプロットしたところ以下のようになった.
 
 やや見にくいが,τが小さくなるにつれ,位相が赤いa*sin(x)に近づいている様子がわかる.
 
+# 12-3
 
+/Sample4-3にあるdata.txtをgnuplotでプロットした結果,以下のようになった.
+
+t-x平面とt-y平面
+![txty](https://user-images.githubusercontent.com/55901554/81002933-04c47580-8e85-11ea-9b04-e8f3ff057b4d.png)
+<br><br>
+x-y平面
+![x-y](https://user-images.githubusercontent.com/55901554/81002955-0ee67400-8e85-11ea-918a-f89f2e3543f7.png)
+<br><br>
+x-y平面のふるまいから,安定な固定点への引き込みが起きていることがわかる.
+<br><br>
+
+# 12-4
+
+```bash
+python 12_4.py
+```
+
+動画にすると以下のようになった.
+
+![12_4](https://user-images.githubusercontent.com/55901554/81014506-f16ed580-8e97-11ea-9b79-fdb45131f58b.gif)
+<br>
+
+引き込み点が存在する場合はtが経過するにつれ引き込み点へ引きこまれ,そうでない場合は振動するようになることがわかる.
+<br>
 
 
 
