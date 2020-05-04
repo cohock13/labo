@@ -8,8 +8,9 @@ C
 gcc 12_1.c
 ```
 Pythonによる作画.
-ついでなのでPythonライブラリScipyの常微分方程式のソルバでも試してみた.
-![sol](https://user-images.githubusercontent.com/55901554/80989982-9f668980-8e70-11ea-944c-ec7b0b871f81.png)
+ついでにPythonライブラリScipyの常微分方程式のソルバでも試してみた.
+![sol](https://user-images.githubusercontent.com/55901554/81003943-9aacd000-8e86-11ea-98e3-e33d509fa340.png)
+
 
 ぱっと見た感じdt=0.2でもほとんど違いはないように見える.
 
