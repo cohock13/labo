@@ -62,7 +62,7 @@ def plot():
     euler = euler_method(t)
     solver = scipy_ode_solver(t)
     
-    """
+    
     ###プロット部分
     plt.title("solution of dx/dt = (a-x)/τ")
     plt.xlabel("t")
@@ -79,7 +79,7 @@ def plot():
     plt.plot(t,np.log10(abs(rungekutta-exact)),label="runge-kutta-method")
     plt.plot(t,np.log10(abs(euler-exact)),label="euler-method")
     plt.plot(t,np.log10(abs(solver-exact)),label="scipy-odeint")
-    
+    """
 
     plt.legend()
     plt.show()
