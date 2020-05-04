@@ -48,8 +48,8 @@ t-x平面とt-y平面
 x-y平面
 ![x-y](https://user-images.githubusercontent.com/55901554/81002955-0ee67400-8e85-11ea-918a-f89f2e3543f7.png)
 <br><br>
-
-
+x-y平面のふるまいから,安定な固定点への引き込みが起きていることがわかる.
+<br><br>
 
 
 
