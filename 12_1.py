@@ -8,7 +8,7 @@ tau = 3
 a = 2
 dt = 0.2
 rng = 20
-step = int(rng/dt)
+step = int(rng/dt)+1
 x_0 = 0.0
 
 ##fを返す
@@ -62,7 +62,7 @@ def plot():
     euler = euler_method(t)
     solver = scipy_ode_solver(t)
     
-    
+    """
     ###プロット部分
     plt.title("solution of dx/dt = (a-x)/τ")
     plt.xlabel("t")
@@ -76,13 +76,14 @@ def plot():
     plt.title("error of solutions")
     plt.xlabel("t")
     plt.ylabel("f")
-    plt.plot(t,abs(rungekutta-exact),label="runge-kutta-method")
-    plt.plot(t,abs(euler-exact),label="euler-method")
-    plt.plot(t,abs(solver-exact),label="scipy-odeint")
-    """
+    plt.plot(t,np.log10(abs(rungekutta-exact)),label="runge-kutta-method")
+    plt.plot(t,np.log10(abs(euler-exact)),label="euler-method")
+    plt.plot(t,np.log10(abs(solver-exact)),label="scipy-odeint")
+    
 
     plt.legend()
     plt.show()
+
 
 ##main関数として呼ばれたときに実行
 if __name__ == "__main__":

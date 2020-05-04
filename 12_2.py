@@ -5,7 +5,7 @@ from scipy.integrate import odeint
 ####parameters
 dt = 0.01
 rng = 40
-step = int(rng/dt)
+step = int(rng/dt)+1
 x_0 = 0.0
 tau_list = [0.1,3,20]
 a = 2
@@ -30,6 +30,7 @@ def runge_kutta_method(t,tau):
 def plot():
 
     t = np.linspace(0,rng,step)
+    print(t)
 
     plt.title("solution of dx/dt = (asin(t)-x)/τ")
     plt.xlabel("t")

@@ -19,7 +19,7 @@ FILE *fp;
 int main(void){
 
 	char filename[256];
-    sprintf(filename, "data.txt");
+    sprintf(filename, "12_1.txt");
 	fp=fopen(filename,"w");
 
     double x = x_0,t = 0;
