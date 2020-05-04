@@ -28,10 +28,6 @@ Python
 ```bash
 python 12_2.py
 ```
-C
-```bash
-gcc 12_2.c
-```
 
 Pythonでプロットしたところ以下のようになった.
 
