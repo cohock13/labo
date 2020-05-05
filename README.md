@@ -70,7 +70,8 @@ python 12_4.py
 python 12_5.py
 ```
 いくつかの初期条件によってプロットしてみると以下のようになった.<br>
-![12_4](https://user-images.githubusercontent.com/55901554/81026861-8ed90200-8eb6-11ea-98b3-f06532db8e84.gif)
+![phi2-phi1](https://user-images.githubusercontent.com/55901554/81027691-a960aa80-8eb9-11ea-8421-28a76efe7899.png)
+
 
 位相差がπと0の近いほうに収束する形になる.<br>
 <br>
