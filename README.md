@@ -77,6 +77,7 @@ python 12_5.py
 次に,これを単位円上での点の位相と解釈して点を動かしてみる.<br>
 まず,点が2個(N=2)のときについて,q(t)=sin(t)のときのケースを動かしてみる.<br>
 ![n_2_sin](https://user-images.githubusercontent.com/55901554/81026823-5fc29080-8eb6-11ea-8187-844818655af3.gif)
+<br>
 点がお互いに近づきあい,同位相になっていることが確認できる.<br>
 次に,N=8にしてみる.<br>
 ![n_8_sin](https://user-images.githubusercontent.com/55901554/81027545-2d666280-8eb9-11ea-8d27-5c0279455ab0.gif)
